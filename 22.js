@@ -37,6 +37,23 @@ for(; i < 3; i++){
 // now we can access i as its define outside the
 // loop construct
 console.log(`value of i out side the construct : ${i}`)
+
+/**
+ * For Loop Construct implimentation using var
+ */
+var j = 0
+for(;j<10; j++){
+    console.log(`Value of j is : ${j}`)
+}
+
+console.log(`Value of j ${j} as j is defined out side the For Loop
+    construct by using Var keyword
+    `)
+
+    // var j defined inside the For Loop Construct
+    for(var k = 0; k<5; k++){
+        console.log(`vale of k ${k}`)
+    }
 console.log(`
     
     
