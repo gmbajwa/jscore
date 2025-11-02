@@ -1,23 +1,23 @@
 'use strict'
 /**
- * 
+ * Do While Loop Construct 
  */
 console.log(`/**
- * 
+ * Do at least once as per give instruction
  */`)
 console.log(`
     
     
-`)
-    
-/**
- * Start Coding From Here
- */
-
+    `)
+let iterator = 1
+do{
+    console.log(`${iterator}`)
+    iterator++
+}while(iterator <= 10)
 console.log(`
     
     
-`)    
+    `)    
 /**
  * Errors In JS
  * 
