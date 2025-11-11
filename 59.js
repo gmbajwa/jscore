@@ -1,0 +1,28 @@
+'use strict'
+/**
+ * array reduce method
+ * 
+ */
+console.log('reduce or sum up all ages of users')
+
+// real word example 
+
+const users = [
+    {id:1, name: 'mustafa', age: 38, gender: 'male', address:{house:'e-214/3', street: 8, near : 'madina mosque', road: 'main qainchi bazaar', village: 'amer sidhu', tehsil: 'model twon', city: 'Lahore', province: 'punjab', country: 'pakistan'}},
+    {id:2, name: 'tabbassam', age: 36, gender: 'female'},
+    {id:3, name: 'harram', age: 10, gender: 'female'},
+    {id:4, name: 'eman', age: 9, gender: 'female'},
+    {id:5, name: 'taha', age: 5, gender: 'male'},
+    {id:6, name: 'hanni', age: 4, gender: 'female'},
+    {id:7, name: 'Osaid', age: 1, gender: 'male'}
+]
+
+let AllUserAgesSum = users.reduce((accumulator, currentObject) => accumulator + currentObject.age, 0)
+console.log('All User Ages Sum :', AllUserAgesSum);
+let AllUserIdSum = users.reduce((accumulator, currentObject) => accumulator + currentObject.id, 0)
+console.log('All User Id Sum :', AllUserIdSum);
+
+
+
+
+
